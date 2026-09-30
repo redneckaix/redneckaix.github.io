@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lihtsa vererõhu jälgija privaatsuspoliitika</title>
+<meta name="description" content="Androidi rakenduse Lihtne vererõhu jälgija privaatsuspoliitika.">
+<link rel="canonical" href="https://redneckaix.github.io/sbpt/privacy/et/">
+<link rel="alternate" hreflang="en" href="https://redneckaix.github.io/sbpt/privacy/"><link rel="alternate" hreflang="et" href="https://redneckaix.github.io/sbpt/privacy/et/"><link rel="alternate" hreflang="es" href="https://redneckaix.github.io/sbpt/privacy/es/"><link rel="alternate" hreflang="fr" href="https://redneckaix.github.io/sbpt/privacy/fr/"><link rel="alternate" hreflang="sv" href="https://redneckaix.github.io/sbpt/privacy/sv/"><link rel="alternate" hreflang="fi" href="https://redneckaix.github.io/sbpt/privacy/fi/"><link rel="alternate" hreflang="x-default" href="https://redneckaix.github.io/sbpt/privacy/">
+<style>
+:root{--bg:#fff;--fg:#1c1b22;--muted:#5d5b6b;--rule:#e4e2ec;--accent:#b3261e}
+@media (prefers-color-scheme:dark){:root{--bg:#121118;--fg:#ece9f4;--muted:#a9a6b8;--rule:#2b2936;--accent:#ff8a80}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:42rem;margin:0 auto;padding:1.25rem 1rem 4rem}
+h1{font-size:1.9rem;line-height:1.2;margin:1.5rem 0 .25rem}
+h2{font-size:1.2rem;margin:2.2rem 0 .4rem;padding-top:1.2rem;border-top:1px solid var(--rule)}
+p,ul{margin:.5rem 0}
+li{margin:.3rem 0}
+.meta{color:var(--muted);margin:0 0 1rem}
+.note{color:var(--muted);font-size:.95rem;font-style:italic}
+.summary{border-left:4px solid var(--accent);padding:.2rem 1rem;background:color-mix(in srgb,var(--accent) 8%,transparent);border-radius:0 8px 8px 0}
+.lang{display:flex;flex-wrap:wrap;gap:.4rem}
+.lang a{padding:.25rem .7rem;border:1px solid var(--rule);border-radius:999px;text-decoration:none;color:var(--fg);font-size:.95rem}
+.lang a[aria-current=page]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+a{color:var(--accent)}
+code{font-size:.92em}
+</style>
+</head>
+<body>
+<main>
+<nav class="lang" aria-label="Keel"><a href="../" hreflang="en" lang="en">English</a><a href="../et/" hreflang="et" lang="et" aria-current="page">Eesti</a><a href="../es/" hreflang="es" lang="es">Español</a><a href="../fr/" hreflang="fr" lang="fr">Français</a><a href="../sv/" hreflang="sv" lang="sv">Svenska</a><a href="../fi/" hreflang="fi" lang="fi">Suomi</a></nav>
+<h1>Lihtsa vererõhu jälgija privaatsuspoliitika</h1>
+<p class="meta">Jõustumise kuupäev: 30. september 2026</p>
+<p class="note">Autoriteetne on ingliskeelne versioon. Tõlked on esitatud mugavuse huvides.</p>
+<p>Lihtne vererõhu jälgija (edaspidi "rakendus") on isiklik vererõhupäevik. See poliitika selgitab, mis sinu teabega juhtub.</p>
+
+<h2>Kokkuvõte</h2>
+<div class="summary"><p>Rakendus ei kogu, edasta, müü ega jaga sinu andmeid. Kõik, mida sisestad, jääb sinu seadmesse.</p></div>
+
+<h2>Andmed, mida rakendus salvestab</h2>
+<p>Sa võid sisestada vererõhu ja pulsi mõõtmisi, kuupäevi, kellaaegu, märkmeid ning soovi korral profiiliandmeid (vanus, kaal, pikkus). Samuti saad määrata rakenduse eelistusi, näiteks teema, keel, kuupäevavorming, ühikud ja meeldetuletuste ajad.</p>
+<p>Neid andmeid hoitakse ainult rakenduse privaatses salvestuskohas sinu seadmes. Arendaja ei näe neid.</p>
+
+<h2>Puudub võrgujuurdepääs</h2>
+<p>Rakendus ei küsi internetiluba. See ei saa andmeid ühelegi serverile saata. Selles ei ole reklaame, analüütikat ega kolmandate osapoolte jälgimist.</p>
+
+<h2>Load</h2>
+<ul>
+<li><strong>Teavitused (<code>POST_NOTIFICATIONS</code>):</strong> kasutatakse ainult sinu seatud mõõtmise meeldetuletuse kuvamiseks.</li>
+<li><strong>Seadme käivitumise vastuvõtt (<code>RECEIVE_BOOT_COMPLETED</code>):</strong> kasutatakse ainult meeldetuletuste taastamiseks pärast seadme taaskäivitamist.</li>
+</ul>
+
+<h2>Eksport ja import</h2>
+<p>Kui valid "Ekspordi CSV-sse", loob rakendus faili ja avab Androidi jagamismenüü. Sina otsustad, milline rakendus faili saab, kui üldse. Sellest hetkest käsitleb faili sinu valitud rakendus ning kehtib selle enda privaatsuspoliitika.</p>
+<p>Kui valid "Impordi CSV-st", loeb rakendus ainult sinu valitud faili.</p>
+
+<h2>Varukoopiad</h2>
+<p>Kui Androidi varundus on sinu seadmes sisse lülitatud, võivad sinu mõõtmised ja seaded sattuda sinu Google'i konto varukoopiasse, nagu enamiku rakenduste puhul. Google käsitleb neid varukoopiaid oma tingimuste ja privaatsuspoliitika alusel. Arendajal neile juurdepääsu ei ole. Varunduse saad seadme seadetes välja lülitada.</p>
+
+<h2>Andmete kustutamine</h2>
+<p>Rakenduse desinstallimine või selle salvestusruumi tühjendamine Androidi seadetes kustutab kõik rakenduse hoitud andmed. Eksporditud failid on eraldi ja jäävad sinna, kuhu need salvestasid või jagasid.</p>
+
+<h2>Lapsed</h2>
+<p>Rakendus ei ole suunatud lastele.</p>
+
+<h2>Meditsiiniline hoiatus</h2>
+<p>Rakendus on mõeldud ainult isiklikuks jälgimiseks. See ei ole meditsiiniseade ega paku meditsiinilist nõu, diagnoosi ega ravi. Konsulteeri oma tervise asjus kvalifitseeritud tervishoiutöötajaga.</p>
+
+<h2>Muudatused</h2>
+<p>Kui see poliitika muutub, avaldatakse uuendatud versioon sellel aadressil uue jõustumise kuupäevaga.</p>
+
+<h2>Kontakt</h2>
+<p><a href="mailto:redneckaix@gmail.com">redneckaix@gmail.com</a></p>
+</main>
+</body>
+</html>

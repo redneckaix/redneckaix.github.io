@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yksinkertainen verenpaine: tietosuojaseloste</title>
+<meta name="description" content="Android-sovelluksen Yksinkertainen verenpaine tietosuojaseloste.">
+<link rel="canonical" href="https://redneckaix.github.io/sbpt/privacy/fi/">
+<link rel="alternate" hreflang="en" href="https://redneckaix.github.io/sbpt/privacy/"><link rel="alternate" hreflang="et" href="https://redneckaix.github.io/sbpt/privacy/et/"><link rel="alternate" hreflang="es" href="https://redneckaix.github.io/sbpt/privacy/es/"><link rel="alternate" hreflang="fr" href="https://redneckaix.github.io/sbpt/privacy/fr/"><link rel="alternate" hreflang="sv" href="https://redneckaix.github.io/sbpt/privacy/sv/"><link rel="alternate" hreflang="fi" href="https://redneckaix.github.io/sbpt/privacy/fi/"><link rel="alternate" hreflang="x-default" href="https://redneckaix.github.io/sbpt/privacy/">
+<style>
+:root{--bg:#fff;--fg:#1c1b22;--muted:#5d5b6b;--rule:#e4e2ec;--accent:#b3261e}
+@media (prefers-color-scheme:dark){:root{--bg:#121118;--fg:#ece9f4;--muted:#a9a6b8;--rule:#2b2936;--accent:#ff8a80}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:42rem;margin:0 auto;padding:1.25rem 1rem 4rem}
+h1{font-size:1.9rem;line-height:1.2;margin:1.5rem 0 .25rem}
+h2{font-size:1.2rem;margin:2.2rem 0 .4rem;padding-top:1.2rem;border-top:1px solid var(--rule)}
+p,ul{margin:.5rem 0}
+li{margin:.3rem 0}
+.meta{color:var(--muted);margin:0 0 1rem}
+.note{color:var(--muted);font-size:.95rem;font-style:italic}
+.summary{border-left:4px solid var(--accent);padding:.2rem 1rem;background:color-mix(in srgb,var(--accent) 8%,transparent);border-radius:0 8px 8px 0}
+.lang{display:flex;flex-wrap:wrap;gap:.4rem}
+.lang a{padding:.25rem .7rem;border:1px solid var(--rule);border-radius:999px;text-decoration:none;color:var(--fg);font-size:.95rem}
+.lang a[aria-current=page]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+a{color:var(--accent)}
+code{font-size:.92em}
+</style>
+</head>
+<body>
+<main>
+<nav class="lang" aria-label="Kieli"><a href="../" hreflang="en" lang="en">English</a><a href="../et/" hreflang="et" lang="et">Eesti</a><a href="../es/" hreflang="es" lang="es">Español</a><a href="../fr/" hreflang="fr" lang="fr">Français</a><a href="../sv/" hreflang="sv" lang="sv">Svenska</a><a href="../fi/" hreflang="fi" lang="fi" aria-current="page">Suomi</a></nav>
+<h1>Yksinkertainen verenpaine: tietosuojaseloste</h1>
+<p class="meta">Voimaantulopäivä: 30. syyskuuta 2026</p>
+<p class="note">Englanninkielinen versio on ensisijainen. Käännökset on tarjottu avuksi.</p>
+<p>Yksinkertainen verenpaine ("sovellus") on henkilökohtainen verenpainepäiväkirja. Tässä selosteessa kerrotaan, mitä tiedoillesi tapahtuu.</p>
+
+<h2>Yhteenveto</h2>
+<div class="summary"><p>Sovellus ei kerää, lähetä, myy eikä jaa tietojasi. Kaikki antamasi tiedot pysyvät laitteellasi.</p></div>
+
+<h2>Sovelluksen tallentamat tiedot</h2>
+<p>Voit syöttää verenpaine- ja sykemittauksia, päivämääriä, kellonaikoja, muistiinpanoja sekä valinnaisia profiilitietoja (ikä, paino, pituus). Voit myös asettaa sovelluksen asetuksia, kuten teeman, kielen, päivämäärämuodon, yksiköt ja muistutusajat.</p>
+<p>Nämä tiedot tallennetaan vain sovelluksen yksityiseen tallennustilaan laitteellasi. Kehittäjä ei näe niitä.</p>
+
+<h2>Ei verkkoyhteyttä</h2>
+<p>Sovellus ei pyydä internet-lupaa. Se ei voi lähettää tietoja millekään palvelimelle. Siinä ei ole mainoksia, analytiikkaa eikä kolmansien osapuolten seurantaa.</p>
+
+<h2>Luvat</h2>
+<ul>
+<li><strong>Ilmoitukset (<code>POST_NOTIFICATIONS</code>):</strong> käytetään vain asettamasi mittausmuistutuksen näyttämiseen.</li>
+<li><strong>Käynnistyksen valmistumisen vastaanotto (<code>RECEIVE_BOOT_COMPLETED</code>):</strong> käytetään vain muistutusten palauttamiseen laitteen uudelleenkäynnistyksen jälkeen.</li>
+</ul>
+
+<h2>Vienti ja tuonti</h2>
+<p>Kun valitset "Vie CSV-muotoon", sovellus luo tiedoston ja avaa Androidin jakovalikon. Päätät itse, mikä sovellus tiedoston saa, jos mikään. Tämän jälkeen tiedostoa käsittelee valitsemasi sovellus, ja sen oma tietosuojaseloste on voimassa.</p>
+<p>Kun valitset "Tuo CSV-tiedostosta", sovellus lukee vain valitsemasi tiedoston.</p>
+
+<h2>Varmuuskopiot</h2>
+<p>Jos Androidin varmuuskopiointi on käytössä laitteellasi, mittauksesi ja asetuksesi voivat sisältyä Google-tilisi varmuuskopioon, kuten useimmissa sovelluksissa. Google käsittelee näitä varmuuskopioita omien ehtojensa ja tietosuojaselosteensa mukaisesti. Kehittäjällä ei ole pääsyä niihin. Voit poistaa varmuuskopioinnin käytöstä laitteen asetuksista.</p>
+
+<h2>Tietojen poistaminen</h2>
+<p>Sovelluksen poistaminen tai sen tallennustilan tyhjentäminen Androidin asetuksista poistaa kaikki sovelluksen hallussa olevat tiedot. Viedyt tiedostot ovat erillisiä ja pysyvät siellä, minne ne tallensit tai jaoit.</p>
+
+<h2>Lapset</h2>
+<p>Sovellus ei ole suunnattu lapsille.</p>
+
+<h2>Lääketieteellinen huomautus</h2>
+<p>Sovellus on tarkoitettu vain henkilökohtaiseen seurantaan. Se ei ole lääkinnällinen laite eikä anna lääketieteellistä neuvontaa, diagnoosia tai hoitoa. Keskustele terveydestäsi pätevän terveydenhuollon ammattilaisen kanssa.</p>
+
+<h2>Muutokset</h2>
+<p>Jos tämä seloste muuttuu, päivitetty versio julkaistaan tässä osoitteessa uudella voimaantulopäivällä.</p>
+
+<h2>Yhteystiedot</h2>
+<p><a href="mailto:redneckaix@gmail.com">redneckaix@gmail.com</a></p>
+</main>
+</body>
+</html>
