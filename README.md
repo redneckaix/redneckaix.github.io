@@ -7,6 +7,9 @@ Home of the apps by redneckaix, published with GitHub Pages at https://redneckai
 ```
 index.html              main page, one card per app
 assets/site.css         shared styles for the main page and app pages
+assets/banner.jpg       banner on the main page (cropped and resized from media/redneckaix_pic.jpg)
+assets/avatar.png       logo avatar and favicon (resized from media/redneckaix_icon.png)
+media/                  original artwork, keep the full size files here
 <app>/index.html        the app's page
 <app>/privacy/          the app's privacy policy (the live URL goes into Google Play)
 <app>/icon.png          the app icon
