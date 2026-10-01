@@ -19,5 +19,3 @@ Currently: `sbpt/` (Simple BP Tracker).
 1. Copy `sbpt/` to a new folder, for example `myapp/`, and edit the text, icon and screenshots.
 2. Write the privacy policy in `myapp/privacy/index.html`.
 3. Copy the `<article class="card">` block in `index.html` and point it at `/myapp/` and `/myapp/privacy/`.
-
-Contact for every page: redneckaix@gmail.com
